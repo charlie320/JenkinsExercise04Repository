@@ -8,7 +8,7 @@ public class JenkinsExercise04
 {
 
     public static String sayHello() {
-        return "Hello Java from JenkinsExercise04 main method!!!";
+        return "Hello Mavan from JenkinsExercise04!!!";
     }
     public static void main(String[] args) {
         System.out.println(sayHello());

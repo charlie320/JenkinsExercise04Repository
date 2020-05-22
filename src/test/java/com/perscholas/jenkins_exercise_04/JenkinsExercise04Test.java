@@ -13,11 +13,11 @@ public class JenkinsExercise04Test
     @Test
     public void sayHelloTest()
     {
-        assertTrue(JenkinsExercise04.sayHello().equals("Hello Java from JenkinsExercise04 main method!!!"));
+        assertTrue(JenkinsExercise04.sayHello().equals("Hello Mavan from JenkinsExercise04!!!"));
     }
 
     @Test
     public void sayGoodBye() {
-        assertFalse(JenkinsExercise04.sayHello().equals("Goodbye Java from JenkinsExercise04 main method!!!"));
+        assertFalse(JenkinsExercise04.sayHello().equals("Goodbye Java from JenkinsExercise04!!!"));
     }
 }
