@@ -1,4 +1,4 @@
-package com.mycompany.jenkins_exercise_04;
+package com.perscholas.jenkins_exercise_04;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
