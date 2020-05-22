@@ -8,7 +8,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class JenkinsExercise04Test 
 {
     @Test
     public void addTwoNumbersTest()
