@@ -1,4 +1,4 @@
-package com.mycompany.jenkins_exercise_04;
+package com.perscholas.jenkins_exercise_04;
 
 /**
  * Hello world!
