@@ -1,5 +1,6 @@
 package com.perscholas.jenkins_exercise_04;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -10,8 +11,13 @@ import org.junit.Test;
 public class JenkinsExercise04Test 
 {
     @Test
-    public void addTwoNumbersTest()
+    public void sayHelloTest()
     {
-        assertTrue(true);
+        assertTrue(JenkinsExercise04.sayHello().equals("Hello Java from JenkinsExercise04 main method!!!"));
+    }
+
+    @Test
+    public void sayGoodBye() {
+        assertFalse(JenkinsExercise04.sayHello().equals("Goodbye Java from JenkinsExercise04 main method!!!"));
     }
 }
