@@ -7,9 +7,6 @@ package com.mycompany.jenkins_exercise_04;
 public class App 
 {
     public static void main(String[] args) {
-        System.out.println("App main method");
-    }
-    public double addTwoNumbers(double num1, double num2) {
-        return num1 + num2;
+        System.out.println("Hello Java from App main method!!!");
     }
 }
